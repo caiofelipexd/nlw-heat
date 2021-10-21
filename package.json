@@ -6,7 +6,7 @@
 	"author": "Caio Felipe <cfxd99@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "ts-node-dev src/app.ts"
+		"start": "ts-node-dev --exit-child src/app.ts"
 	},
 	"dependencies": {
 		"@prisma/client": "3.2.1",
